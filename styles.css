@@ -16,9 +16,9 @@ body {
 .background-portrait {
   position: fixed;
   z-index: -1;
-  left: max(-5vw, -80px);
+  left: calc(max(-5vw, -80px) + 16px);
   bottom: 0;
-  width: min(62vw, 820px);
+  width: min(57vw, 760px);
   max-height: 96vh;
   object-fit: contain;
   object-position: left bottom;
@@ -64,8 +64,8 @@ li { margin-bottom: 12px; }
 
 @media (max-width: 700px) {
   .background-portrait {
-    left: -18vw;
-    width: 115vw;
+    left: calc(-18vw + 16px);
+    width: 106vw;
     max-height: 75vh;
     opacity: .18;
   }
