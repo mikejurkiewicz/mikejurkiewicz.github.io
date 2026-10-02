@@ -13,10 +13,10 @@ body {
   min-width: 320px;
 }
 
-.background-portrait {
+.background-laptop {
   position: fixed;
   z-index: -1;
-  left: calc(max(-5vw, -80px) + 16px);
+  left: 16px;
   bottom: 0;
   width: min(57vw, 760px);
   max-height: 96vh;
@@ -63,9 +63,9 @@ ul { margin: 0; padding-left: 1.3em; }
 li { margin-bottom: 12px; }
 
 @media (max-width: 700px) {
-  .background-portrait {
-    left: calc(-18vw + 16px);
-    width: 106vw;
+  .background-laptop {
+    left: 0;
+    width: 100vw;
     max-height: 75vh;
     opacity: .18;
   }
