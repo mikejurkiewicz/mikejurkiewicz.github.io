@@ -16,7 +16,7 @@ body {
 .background-laptop {
   position: fixed;
   z-index: -1;
-  left: 16px;
+  left: 25vw;
   bottom: 0;
   width: min(57vw, 760px);
   max-height: 96vh;
@@ -64,8 +64,8 @@ li { margin-bottom: 12px; }
 
 @media (max-width: 700px) {
   .background-laptop {
-    left: 0;
-    width: 100vw;
+    left: 18vw;
+    width: 82vw;
     max-height: 75vh;
     opacity: .18;
   }
